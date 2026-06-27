@@ -1,0 +1,13 @@
+.idea/
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.cache/
+
+# Experiment outputs
+results/
+runs/
+wandb/
+*.jsonl
