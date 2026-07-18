@@ -1,5 +1,7 @@
 # Modification-Considering Value Learning (MCVL)
 
+[**Project page**](https://ktolnos.github.io/mcvl/) | [**arXiv**](https://arxiv.org/abs/2606.28955)
+
 Code for the reward-tampering experiments studying **Modification-Considering Value
 Learning (MCVL)** — a forecast-and-score gate that lets a reinforcement-learning agent
 detect and avoid reward-tampering behaviour during deployment.
@@ -177,6 +179,22 @@ BoxMovingEnv.py                       # custom box-moving reward-tampering gridw
 reacher.py, ant_v5.py, half_cheetah_v5.py  # custom MuJoCo environments
 ai_safety_gridworlds/, safe-grid-gym/      # vendored gridworld libraries
 plots.ipynb, plots_td3.ipynb               # plotting notebooks
+```
+
+---
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{opryshko2026mcvl,
+      title={Modification-Considering Value Learning for Reward Hacking Mitigation in {RL}},
+      author={Evgenii Opryshko and Umangi Jain and Igor Gilitschenski},
+      booktitle={Reinforcement Learning Conference (RLC)},
+      year={2026},
+      url={https://openreview.net/forum?id=pf4civRhjC},
+}
 ```
 
 ---
