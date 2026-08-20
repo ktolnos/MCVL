@@ -188,12 +188,13 @@ plots.ipynb, plots_td3.ipynb               # plotting notebooks
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{opryshko2026mcvl,
-      title={Modification-Considering Value Learning for Reward Hacking Mitigation in {RL}},
-      author={Evgenii Opryshko and Umangi Jain and Igor Gilitschenski},
-      booktitle={Reinforcement Learning Conference (RLC)},
-      year={2026},
-      url={https://openreview.net/forum?id=pf4civRhjC},
+@article{opryshko2026modificationconsidering,
+    title={Modification-Considering Value Learning for Reward Hacking Mitigation in RL},
+    author={Evgenii Opryshko and Umangi Jain and Igor Gilitschenski},
+    journal={Reinforcement Learning Journal},
+    volume={7},
+    pages={},
+    year={2026}
 }
 ```
 
